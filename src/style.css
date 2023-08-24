@@ -1,0 +1,70 @@
+:root{
+    --color-txt-nav: #5b00fb
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+header{
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+}
+
+header .containerBrand{
+    border: 1px solid black;
+    width: 20%;
+    height: 100%;
+}
+header .containerItemList{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header .containerItemList ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+}
+
+header .containerItemList ul li{
+    margin: 10px;
+    color: var(--color-txt-nav);
+}
+
+header .containerCart{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .containerCart .containerLength{
+    background-color: aqua;
+    width: 45%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+header .containerCart .containerLength .cantCart{
+    width: 10px;
+    height: 10px;
+    color: red; 
+    top: 0;
+    left: 80%;
+    border-radius: 50%;
+}
+
+
+
